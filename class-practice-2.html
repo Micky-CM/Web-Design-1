@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture Album</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2D3250;
+      color: #F6B17A;
+      padding: 10px 0;
+      text-align: center;
+    }
+    main {
+      background-color: #7077A1;
+      margin: 0;
+      padding: 20px;
+    }
+    .pictures {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pictures img {
+      width: 400px;
+      height: 250px;
+      margin-top: 40px;
+    }
+    .pictures p {
+      color: #2D3250;
+      font-weight: bold;
+    }
+    table {
+      width: 100vw;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+    table tr th {
+      border: 1px solid #2D3250;
+      padding: 10px;
+      background-color: #F6B17A;
+      color: white;
+    }
+    table tr td {
+      border: 1px solid #2D3250;
+      padding: 8px;
+      text-align: center;
+    }
+    footer {
+      background-color: #424769;
+      color: white;
+      padding: 10px 20px;
+      text-align: end;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Picture Album</h1>
+  </header>
+
+  <main>
+    <h2>Amazing landscapes</h2>
+    <section class="pictures">
+      <img src="./assets/img/sunset-chicago.jpg" alt="Chicago">
+      <p>Beautiful sunset in Chicago</p>
+      <img src="./assets/img/miami.jpg" alt="Miami">
+      <p>Beautiful Miami's shore</p>
+      <img src="./assets/img/new_york.jpg" alt="New York">
+      <p>Aerial view of New York</p>
+      <img src="./assets/img/norway.jpg" alt="Norway">
+      <p>Norwegian landscape</p>
+      <img src="./assets/img/seattle.jpg" alt="Seattle">
+      <p>Iconic picture of Seattle</p>
+      <img src="./assets/img/switzerland.jpg" alt="Switzerland">
+      <p>Mountain village in Switzerland</p>
+      <img src="./assets/img/sydney.jpg" alt="Sydney">
+      <p>Opera House in Sydney</p>
+      <img src="./assets/img/yosemite.jpg" alt="New York">
+      <p>Yosemite National Park in California</p>
+    </section>
+    <section class="table">
+      <table>
+        <tr>
+          <th>Picture</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Chicago</td>
+          <td>Beautiful sunset in Chicago</td>
+        </tr>
+        <tr>
+          <td>Miami</td>
+          <td>Beautiful Miami's shore</td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Aerial view of New York</td>
+        </tr>
+        <tr>
+          <td>Norway</td>
+          <td>Norwegian landscape</td>
+        </tr>
+        <tr>
+          <td>Seattle</td>
+          <td>Iconic picture of Seattle</td>
+        </tr>
+        <tr>
+          <td>Switzerland</td>
+          <td>Mountain village in Switzerland</td>
+        </tr>
+        <tr>
+          <td>Sydney</td>
+          <td>Opera House in Sydney</td>
+        </tr>
+        <tr>
+          <td>Yosemite</td>
+          <td>Yosemite National Park in California</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Web Design 1</p>
+  </footer>
+</body>
+</html>
