@@ -1,0 +1,58 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #38419D;
+}
+header {
+  background-color: #200E3A;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: end;
+}
+nav ul li {
+  display: inline;
+  padding: 0;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 1rem 3rem;
+  color: #200E3A;
+}
+.profile {
+  background-color: #52D3D8;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 20px 0;
+  box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.3);
+}
+.services, .products {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 20px 0;
+  box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.3);
+}
+.services ul, .products ul {
+  list-style-type: none;
+  padding: 0;
+}
+.services ul li, .products ul li {
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: #200E3A;
+  padding: 1rem;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
