@@ -1,0 +1,9 @@
+.product {
+  font-family: 'Montserrat';
+  text-align: center;
+  background-color: #7E30E1;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.2rem 0.8rem 1.2rem;
+  border-radius: 20px;
+}

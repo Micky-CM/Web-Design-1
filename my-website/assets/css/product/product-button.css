@@ -1,0 +1,13 @@
+.product__button {
+  background-color: #F8E559;
+  color: #49108B;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+}
+.product__button:hover {
+  cursor: pointer;
+  background-color: #E26EE5;
+  color: #F3F8FF;
+  font-weight: bold;
+}

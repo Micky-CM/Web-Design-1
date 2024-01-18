@@ -1,0 +1,6 @@
+.footer__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}

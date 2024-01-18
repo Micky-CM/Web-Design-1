@@ -1,0 +1,14 @@
+.message {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+@media screen and (min-width:0) {
+  .message {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (min-width:750px) {
+  .message {
+    padding: 3rem 2rem;
+  }
+}

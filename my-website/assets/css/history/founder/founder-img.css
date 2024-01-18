@@ -1,0 +1,15 @@
+.founder__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.founer__img--prof1 {
+  background-image: url('../../../img/chocolate-perfil.jpg');
+}
+.founer__img--prof2 {
+  background-image: url('../../../img/chocolate-perfil.jpg');
+}
