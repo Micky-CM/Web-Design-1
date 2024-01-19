@@ -1,0 +1,12 @@
+.hero__button {
+  width: 10rem;
+  height: 2rem;
+  background-color: #F2CDB3;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+}
+.hero__button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
