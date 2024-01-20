@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  color: aliceblue;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid darkblue;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.header__logo {
+  height: 75px;
+  margin-bottom: 1rem;
+}
+.header__nav {
+  text-align: center;
+}
+.header__link {
+  display: inline-block;
+  margin-right: .5rem;
+}
