@@ -1,0 +1,9 @@
+.donation__img {
+  flex: 50%;
+  background-image: url('../../../assets/img/beagle-puppy.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 0 2rem;
+}

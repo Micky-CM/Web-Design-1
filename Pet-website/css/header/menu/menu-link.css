@@ -1,5 +1,5 @@
 .menu__link {
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: #F6F6F6;
   margin: 0 0.7rem;
@@ -7,7 +7,4 @@
 .menu__link:hover {
   color: #F2CDB3;
   font-weight: bold;
-}
-.menu__link .active{
-  color: #F2CDB3;
 }

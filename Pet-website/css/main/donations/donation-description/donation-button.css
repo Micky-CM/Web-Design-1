@@ -1,0 +1,14 @@
+.donation__button {
+  width: 16rem;
+  height: 2.5rem;
+  background-color: #F2CDB3;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+.donation__button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #F6F6F6;
+}

@@ -1,8 +1,8 @@
-.hero__cta {
-  flex: 60%;
+.donatation__description {
+  flex: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 2rem;
-  color: #F6F6F6;
 }

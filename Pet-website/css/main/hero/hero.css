@@ -1,8 +1,8 @@
 .hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background: linear-gradient(130deg, rgba(64,49,43,1) 0%, rgba(65,50,43,1) 10%, rgba(27,26,31,1) 100%);
+  box-sizing: border-box;
   width: 100%;
-  padding: 3rem;
-  color: #F6F6F6;
+  height: 450px;
+  padding: 0 4rem;
 }

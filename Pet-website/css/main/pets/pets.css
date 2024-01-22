@@ -1,0 +1,10 @@
+.pets {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #fcf5ef;
+  color: #3E3E3E;
+  padding: 4rem;
+}
