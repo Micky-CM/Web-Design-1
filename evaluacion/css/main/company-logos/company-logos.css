@@ -1,0 +1,11 @@
+.company-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 200px;
+  gap: 80px;
+}
+.company-logo {
+  height: 85px;
+  width: auto ;
+}

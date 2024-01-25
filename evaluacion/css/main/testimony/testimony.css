@@ -1,7 +1,8 @@
 .testimony {
   display: flex;
   justify-content: space-evenly;
-  padding: 100px;
+  align-items: center;
+  padding: 0 140px;
   gap: 180px;
 }
 .testimony-left, .testimony-right {
@@ -23,15 +24,18 @@
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  box-shadow: 1px 2px 0 rgba(27, 26, 31, 0.2);
+  padding: 30px;
+  margin: 0 60px;
 }
 .testimony-right__text {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
-.testimony-right__autor {
+.testimony-right__author {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
