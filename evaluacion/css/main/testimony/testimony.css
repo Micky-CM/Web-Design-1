@@ -1,0 +1,47 @@
+.testimony {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  gap: 180px;
+}
+.testimony-left, .testimony-right {
+  padding: 20px;
+}
+.testimony-left__subtitle {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.testimony-left__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.testimony-right {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+.testimony-right__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.testimony-right__autor {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.testimony-right__job {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}

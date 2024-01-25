@@ -1,10 +1,11 @@
 .navbar {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
   height: 80px;
+  width: 80%;
   background-color: #FFFFFF;
   padding: 25px 40px;
   margin: 50px 150px;
@@ -18,7 +19,7 @@
   display: flex;
   justify-content: space-around;
   list-style: none;
-  gap: 20px;
+  gap: 30px;
 }
 .menu__link {
   font-size: 18px;
